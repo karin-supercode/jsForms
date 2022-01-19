@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Übung JS und Forms 1_1</title>
+</head>
+
+<body>
+
+<h1>Übung 1_1: Verdopple mich</h1>
+  <form action="" onsubmit="return false">
+    <input type="text" name="zahl" id="zahl">
+    <input type="submit" value="Verdopple Mich!" onclick="verdoppeln()">
+    <h1 id="ausgabe"></h1>
+  </form>
+  <br><br>
+
+  <h1>Übung 1_2: Berechne mein Alter</h1>
+  <form action="" onsubmit="return false">
+    <fieldset>
+      <legend>Gib dein Geburtsjahr ein</legend>
+      <input type="text" name="jahr" id="jahr">
+      <input type="submit" value="Berechne mein Alter" onclick="alterBerechnen()">
+      <h1 id="ausgabe2"></h1>
+    </fieldset>
+  </form>
+  <br><br>
+
+  <h1>Übung 1_3: Vergleiche Alter</h1>
+  <form action="" onsubmit="return false">
+    <fieldset>
+      <legend>Gib zwei Zahlen ein um das Alter zu vergleichen</legend>
+
+      <label for="text">Alter 1</label>
+      <input type="text" name="alter1" id="alter1"><br>
+
+      <label for="text">Alter 2</label>
+      <input type="text" name="alter2" id="alter2"><br>
+      
+      
+      <input type="submit" value="Berechne die Differenz!" onclick="differenzBerechnen()">
+      
+      <h1>Die Differenz ist:</h1>
+      <h1 id="ausgabe3"></h1>
+    </fieldset>
+  </form>
+  <br><br>
+
+
+
+
+  <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
